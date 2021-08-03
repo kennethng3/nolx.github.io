@@ -1,0 +1,130 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+*{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+                                                
+}
+.nav_container{
+    background: rgba(124, 153, 255, 1);
+}
+
+.nav{
+    font-size: 1.5em;
+    padding:1rem;
+    display: flex;
+    justify-content: space-between;
+    width: min(90%, 80rem);
+    margin-inline: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.vender_boton a{
+    padding: .2rem 1rem;
+    background: rgba(255, 156, 64, 1);
+    border-radius: .5rem;
+    border: .1rem solid black;
+}
+
+.micuenta_boton a{
+    padding: .2rem 1rem;
+    background: white;
+    border-radius: .5rem;
+    border: .1rem solid black;
+}
+
+.searchbar_container{
+    background: rgba(168, 187, 255, 1);
+}
+
+.searchbar{
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar div {
+    width: 50%;
+    background-color: rgba(196, 196, 196, 1);
+    padding: .2rem;
+    border-radius: .5rem;
+    border: .1rem solid black;
+
+}
+
+.searchbar input[type="text"]{
+    border: none;
+    background: none;
+    outline: none;
+    padding: .1rem;
+}
+
+
+
+.categories {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.categories div{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 7rem;
+}
+
+.categories a{
+    margin: .2rem;
+}
+.categories img  {
+    width: 5rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+
+.footer_container{
+    margin-top: auto;
+    background: rgba(168, 187, 255, 1);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    gap: 2rem;
+    width: min(90%, 80rem);
+    margin-inline: auto;
+}
+
+.footer p{
+    font-family: 'Freeway Gothic', sans-serif;
+                                                
+    
+    font-size: 1rem;
+
+
+}
+
+.social_info{
+    justify-content: space-between;
+    display: flex;
+}
+
+.social_info > * {
+    margin: .3rem;
+}
